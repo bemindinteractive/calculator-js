@@ -17,7 +17,7 @@ buttons.map( button => {
                 try{
                     display.innerText = eval(display.innerText);
                 } catch {
-                    display.innerText = 'Error!';
+                    display.innerText = 'Error!!';
                 }
                 break;
             default:
